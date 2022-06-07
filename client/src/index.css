@@ -1,0 +1,339 @@
+body{
+  background-color: rgb(76, 56, 161);
+  
+}
+h1{
+  font-size: 38px;
+}
+
+input[type=text] {
+  width: 30%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 15px;
+  background-color: rgb(255, 249, 249);
+  color: rgb(10, 10, 10);
+  font-family: Arial, Helvetica, sans-serif;
+}
+input[type=email] {
+  width: 30%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 15px;
+  background-color: rgb(255, 249, 249);
+  color: rgb(10, 10, 10);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+input[type=password] {
+  width: 30%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 15px;
+  background-color: rgb(255, 249, 249);
+  color: rgb(10, 10, 10);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+input[type=submit] {
+  background-color: rgb(40, 13, 83);
+  border: none;
+  color: rgb(255, 245, 245);
+  padding: 10px 80px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  /* cursor: pointer; */
+  border-radius: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 22px;
+}
+
+select {
+  width: 20%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 15px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(10, 10, 10);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.container{
+  background-color: rgb(201, 188, 231);
+  margin: auto;
+  height: 720px;
+  width: 300px;
+  border-style:none;
+  border-radius: 15px;
+  padding:auto;
+  text-align: center;
+  box-shadow: 0 18px 6px -6px black;
+  
+}
+
+.container9{
+  background-color: rgb(30, 10, 77);
+  margin: auto;
+  height: 600px;
+  width: 1500px;
+  border-style:none;
+  border-radius: 15px;
+  padding:auto;
+  text-align: center;
+  box-shadow: 0 18px 6px -6px black;
+  
+}
+
+
+.container6{
+  background-color: rgb(218, 208, 240);
+  margin: left;
+  height: 400px;
+  width: 800px;
+  border-style:none;
+  border-radius: 5px;
+  padding:10px 10px ;
+  
+  /* text-align: center; */
+  box-shadow: 0 18px 6px -6px rgb(97, 96, 96);
+  
+}
+
+
+
+.container3{
+  background-color: rgb(171, 153, 214);
+  margin: auto;
+  border-style:none;
+  border-radius: 15px;
+  width: 1300px;
+  height: 500px;
+  padding: auto;
+  text-align: center;
+  box-shadow: 0 15px 6px -6px black;
+}
+
+
+
+.container5{
+  background-color: rgb(207, 199, 228);
+  margin: auto;
+  border-style:none;
+  width: 1300px;
+  height: 430px;
+  border-radius: 15px;
+  padding: auto;
+  text-align: right;
+  box-shadow: 0 15px 6px -6px black;
+}
+
+/* .container8{
+  background-color: rgb(225, 220, 238);
+  margin: auto;
+  border-style:none;
+  border-radius: 15px;
+  width: 750px;
+  height: 400px;
+  padding-left: 20px;
+  text-align: left;
+  border-radius: 15px;
+  
+  box-shadow: 0 15px 6px -6px black;
+} */
+
+
+.container7{
+  background: linear-gradient(to bottom right, rgb(240, 236, 243) 0%, #cac9e0 70%);
+  margin: 0.5rem 0;
+  gap: 4rem;
+  border-style:none;
+  width: 600px;
+  height: 200px;
+  border-radius: 15px;
+  padding: auto;
+  /* text-align: left; */
+  
+  box-shadow: 0 15px 6px -6px rgb(56, 56, 56);
+}
+
+.container1{
+  background-color: rgb(126, 99, 190);
+  margin: auto;
+  border-style:none;
+  border-radius: 15px;
+  width: 1300px;
+  height: 430px;
+  padding: auto;
+  text-align: center;
+  box-shadow: 0 15px 6px -6px black;
+}
+@media screen and (max-width:900px){
+
+    .main-contianer{
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+      justify-content: space-evenly; 
+      
+    }
+  
+  }
+ 
+  .card{
+    background-color: rgb(174, 155, 219);
+    margin: auto;
+    border-style:none;
+    border-radius: 15px;
+    width: 350px;
+    height: 380px;
+    padding: auto;
+    text-align: center;
+    box-shadow: 0 15px 6px -6px rgb(8, 8, 8);
+  }
+
+  .card-body{
+
+    background-color: rgb(212, 200, 240);
+    margin: left;
+    border-style:none;
+    border-radius: 15px;
+    width: 350px;
+    height: 380px;
+    padding: auto;
+    align-items: center;
+    text-align: center;
+  }
+  .card-container{
+    background-color: rgb(216, 207, 236);
+    margin: auto;
+    border-style:none;
+    border-radius: 15px;
+    padding: auto;
+    text-align: center;
+    box-shadow: 0 15px 6px -6px black;
+  }
+  .header{
+  height: 160px;
+  width: 100%;
+  background-color : #E9EEF6;
+  padding-top: 50px;
+}
+.card-container{
+  height: 300px;
+  width: 300px;
+  box-shadow: 0px 3px 50px #A5A5A5;
+}
+
+.card-wrapper{
+  width: 270px; 
+  height: 200px; 
+  box-shadow: 0px 3px 50px #A5A5A5;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-top{
+  width: 100%;
+  height: 3%;
+}
+
+.task-holder{
+  width: 100%;
+  height: 98%;
+  padding: 10px 10px;
+  display : flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.card-header{
+  margin-top: 10px;
+  margin-bottom: 20px;
+  max-width: 80px;
+  height: 30px;
+  padding: 1px 1px !important;
+  text-align: center;
+}
+
+.task-container{
+  height: 600px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #F6F7F8;
+  padding : 40px 120px;
+  column-gap: 20px ;
+}
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.App button {
+  padding: 13px 29px;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  background: crimson;
+  color: white;
+  cursor: pointer;
+  margin: center;
+}
+#portal .container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.7);
+}
+.container .modal {
+  z-index: 1;
+  width: 800px;
+  height: 450px;
+  background: rgb(247, 242, 242);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  position: relative;
+  animation: animate 0.3s;
+}
+.modal button {
+  position: absolute;
+  top: 7px;
+  right: 7px;
+  padding: 8px 11px;
+  background: crimson;
+  color: white;
+  font-weight: bold;
+  border: none;
+  outline: none;
+  border-radius: 2px;
+  cursor: pointer;
+}
+@keyframes animate {
+  from {
+    transform: scale(0.5);
+  }
+  to {
+    transform: scale(1);
+  }
+}
