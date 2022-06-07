@@ -1,0 +1,78 @@
+{
+  "users": [
+    {
+      "empFirstName": "sai",
+      "empLastName": "naik",
+      "empEmail": "123332",
+      "empPosition": "employee",
+      "empTeam": "A",
+      "empContactNum": "2323232",
+      "empPassword": "123",
+      "empConfirmPass": "123",
+      "id": 11,
+      "team": "B"
+    },
+    {
+      "empFirstName": "rohit",
+      "empLastName": "naik",
+      "empEmail": "sai123@gmail.cxok",
+      "empPosition": "employee",
+      "empTeam": "A",
+      "empContactNum": "1234567899",
+      "empPassword": "456",
+      "empConfirmPass": "456",
+      "id": 12,
+      "team": "B"
+    },
+    {
+      "empFirstName": "sangeeta",
+      "empLastName": "naik",
+      "empEmail": "sai123@gmail.cxok",
+      "empPosition": "employee",
+      "empTeam": "B",
+      "empContactNum": "1234567899",
+      "empPassword": "456",
+      "empConfirmPass": "456",
+      "id": 14
+    },
+    {
+      "empFirstName": "alex",
+      "empLastName": "rod",
+      "empEmail": "alex123@gmail.cxok",
+      "empPosition": "hr",
+      "empTeam": "A",
+      "empContactNum": "1234567899",
+      "empPassword": "123",
+      "empConfirmPass": "123",
+      "id": 15
+    }
+  ],
+  "tasks": [
+    {
+      "topic": "React js",
+      "objective": "Learn React",
+      "category": "HR",
+      "date": "03/05/2022",
+      "status": "pending",
+      "id": 2
+    },
+    {
+      "topic": "Node js ",
+      "objective": " Learn Node js",
+      "category": "HR",
+      "date": "03/05/2022",
+      "status": "Pending",
+      "id": 1
+    },
+    {
+      "topic": "express ",
+      "objective": "Learn express",
+      "category": "HR",
+      "date": "03/05/2022",
+      "status": "Done",
+      "id": 3,
+      "comments": "asas",
+      "summary": "saaas"
+    }
+  ]
+}
