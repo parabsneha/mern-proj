@@ -22,7 +22,7 @@ const openModal1 = () => {
    <div className="card"  >
    <Avatar src={AvatarImage} />
   <div className="card-body">
-    <h5 className="card-title">Name:</h5>
+    <h5 className="card-title">Namee:</h5>
     <p className="card-text">Bio:</p>
     {/* <Link to={''} className="btn btn-primary">View</Link> */}
     <div className="App">
